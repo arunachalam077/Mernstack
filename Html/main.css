@@ -2,3 +2,10 @@ html{
     background-color: rgb(255, 247, 0);
     color:rgb(0, 47, 255);
 }
+table ,tr,th,td,caption{
+    border: 1px solid #9c0000;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse:collapse ;
+    padding: 0.5rem;
+
+}
