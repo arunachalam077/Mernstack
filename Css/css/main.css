@@ -62,18 +62,106 @@ p{
 } */
 /* ''''''''''''''''''''''''''''''''''''' */
 /* Box model */
-*{
+/* *{
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .container{
-    border: 2px dashed red;
+    border: 5px double red;
     font-size: 1.5rem;
     /* margin: 0.5em 2em ;
     margin-top: 1em;
     margin-right: 2em; */
-    margin: 1.5em;
+    /* margin: 1.5em;
     padding: 0.5em;
+    outline: 5px solid blue;
+    outline-offset: -10px;
+   
 }
+.circle{
+    border: 10px solid green;
+    border-radius: 50%;
+    width: 140px;
+    height: 100px;
+    margin-left: 2em;
+    padding: 10px;
+    outline: 5px dashed black;
+    outline-offset: 10px;
+background-color: aquamarine;
+} */ 
+
+/* oooooooooooooooooooooooooooooooooooooooo */
+/* Typography */
+/* body{
+    padding: 10%;
+    font-size: 1rem;
+
+}
+/* input,button{ */
+    /* font-size: inherit; */
+/* } */ 
+/* .container{
+    text-decoration:dashed;
+} */
+/* p{
+    /* text-transform: uppercase; */
+    /* text-align: left; */
+    /* text-indent: 2em; */
+    /* line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 2em; */
+    /* font-weight: 1000;
+    font-family
+: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;} */
+
+
+    /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+    /* styleing the links  */
+
+/* a{
+    text-decoration: none;
+    cursor: not-allowed;
+    color: brown;
+}
+a:visited{
+    color: #000;
+}
+a:active{
+    color: aqua;
+}
+a:hover{
+    color: darkorange;
+} */
+/* a:hover, a:focus{
+    background-color: rgba(red, green, blue, alpha);
+
+      opacity: 0.1;
+} */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+/* lIST STYLE */
+ol{
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    /* list-style-image: url(https://cdn2.vectorstock.com/i/1000x1000/10/96/green-check-mark-icon-in-a-circle-tick-symbol-vector-41911096.jpg); */
+ color: blue;
+ list-style: square url(smoething) inside ; 
+
+}
+ul li:nth-child(2){
+    color: brown;
+
+}
+ol li:nth-child(3){
+    color: black;
+
+}
+ul li::marker{
+    color: aqua;
+    font-size: 2em;
+    content: only today offer; 
+}
+/* marker mean style symbol its sudo element */
